@@ -1,0 +1,44 @@
+{
+    "name": "mtymek/mini-url",
+    "description": "Short URL library, built on PSR-7 and middleware",
+    "keywords": [
+        "bit.ly",
+        "short url",
+        "url shortener",
+        "shorten",
+        "psr-7",
+        "psr7",
+        "middleware",
+        "url"
+    ],
+    "license": "2-Clause BSD",
+    "authors": [
+        {
+            "name": "Mateusz Tymek",
+            "email": "mtymek@gmail.com"
+        }
+    ],
+    "require": {
+        "ircmaxell/random-lib": "~1.1"
+    },
+    "require-dev": {
+        "ext-pdo": "*",
+        "ext-sqlite3": "*",
+        "phpunit/phpunit": "~4.6",
+        "phpunit/dbunit": "~1.4",
+        "zendframework/zend-diactoros": "~1.0"
+    },
+    "suggest": {
+        "zendframework/zend-diactoros": "PSR-7 implementation required for bundled middleware"
+    },
+    "autoload": {
+        "psr-4": {
+            "MiniUrl\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MiniUrl\\Test\\": "test"
+        }
+    }
+}

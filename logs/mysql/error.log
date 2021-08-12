@@ -1,0 +1,53 @@
+2021-08-11T11:55:27.038233Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2021-08-11T11:55:27.038363Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.26) starting as process 1
+2021-08-11T11:55:27.690013Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-08-11T11:55:34.142272Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-08-11T11:55:39.327991Z 0 [Warning] [MY-013746] [Server] A deprecated TLS version TLSv1 is enabled for channel mysql_main
+2021-08-11T11:55:39.338869Z 0 [Warning] [MY-013746] [Server] A deprecated TLS version TLSv1.1 is enabled for channel mysql_main
+2021-08-11T11:55:39.644376Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-08-11T11:55:39.644824Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-08-11T11:55:40.785348Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2021-08-11T11:55:40.785679Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.26'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-08-11T11:57:29.711234Z 8 [Warning] [MY-010055] [Server] IP address '172.20.0.1' could not be resolved: Name or service not known
+2021-08-11T11:57:30.891175Z 8 [Warning] [MY-013360] [Server] Plugin sha256_password reported: ''sha256_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2021-08-11T11:57:31.237301Z 9 [Warning] [MY-013360] [Server] Plugin sha256_password reported: ''sha256_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2021-08-11T11:57:33.477246Z 10 [Warning] [MY-013360] [Server] Plugin sha256_password reported: ''sha256_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2021-08-11T11:57:36.995531Z 11 [Warning] [MY-013360] [Server] Plugin sha256_password reported: ''sha256_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2021-08-11T11:57:37.308073Z 12 [Warning] [MY-013360] [Server] Plugin sha256_password reported: ''sha256_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2021-08-11T11:57:39.651953Z 13 [Warning] [MY-013360] [Server] Plugin sha256_password reported: ''sha256_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+mbind: Operation not permitted
+mbind: Operation not permitted
+mbind: Operation not permitted
+mbind: Operation not permitted
+mbind: Operation not permitted
+mbind: Operation not permitted
+2021-08-11T14:07:42.801738Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.26).
+2021-08-11T14:07:44.805954Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.26)  MySQL Community Server - GPL.
+2021-08-11T14:08:19.039650Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2021-08-11T14:08:19.039894Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.26) starting as process 1
+2021-08-11T14:08:19.201606Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-08-11T14:08:23.149041Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-08-11T14:08:25.976486Z 0 [Warning] [MY-013746] [Server] A deprecated TLS version TLSv1 is enabled for channel mysql_main
+2021-08-11T14:08:25.976745Z 0 [Warning] [MY-013746] [Server] A deprecated TLS version TLSv1.1 is enabled for channel mysql_main
+2021-08-11T14:08:26.281723Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-08-11T14:08:26.282124Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-08-11T14:08:26.892347Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2021-08-11T14:08:26.892472Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.26'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-08-11T14:11:38.264970Z 8 [Warning] [MY-010055] [Server] IP address '172.21.0.1' could not be resolved: Name or service not known
+mbind: Operation not permitted
+2021-08-11T14:33:54.435114Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.26).
+2021-08-11T14:33:57.594212Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.26)  MySQL Community Server - GPL.
+2021-08-11T14:34:08.126483Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2021-08-11T14:34:08.126610Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.26) starting as process 1
+2021-08-11T14:34:08.221235Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-08-11T14:34:14.432563Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-08-11T14:34:21.781360Z 0 [Warning] [MY-013746] [Server] A deprecated TLS version TLSv1 is enabled for channel mysql_main
+2021-08-11T14:34:21.788127Z 0 [Warning] [MY-013746] [Server] A deprecated TLS version TLSv1.1 is enabled for channel mysql_main
+2021-08-11T14:34:22.043797Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-08-11T14:34:22.044229Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-08-11T14:34:24.432129Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2021-08-11T14:34:24.433969Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.26'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-08-11T22:41:53.913192Z 8 [Warning] [MY-010055] [Server] IP address '172.21.0.1' could not be resolved: Name or service not known
+mbind: Operation not permitted
+2021-08-11T22:49:56.283161Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.26).
+2021-08-11T22:49:58.349461Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.26)  MySQL Community Server - GPL.

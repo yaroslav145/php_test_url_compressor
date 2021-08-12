@@ -1,0 +1,6 @@
+{
+    "require": {
+        "mtymek/mini-url": "^1.0",
+        "predis/predis": "^1.1"
+    }
+}
